@@ -67,12 +67,25 @@ padding: 2% 0% 0% 15%;
     text-decoration: none;
 }
 
+.curriculo{
+    font-family: 'Montserrat' sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
 .sobre{
     font-family: 'Montserrat' sans-serif;
     font-size: 24px;
     font-weight: 600px;
     color: #22D4FD;
     text-decoration: none;
+    border: 3px solid #0000;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+    
 }
 
 .container__font {
