@@ -45,6 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .container__cont {
@@ -250,4 +251,25 @@ top: 519px;
 
 background: #22D4FD;
 transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+@media (max-width: 1200px) {
+    .container {
+      flex-direction: column-reverse; 
+    }
+    
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho_nav {
+        justify-content: center;
+        padding: 7%;
+    }
+
+    .container__cont {
+        width: auto;
+    }
+
+    
 }
